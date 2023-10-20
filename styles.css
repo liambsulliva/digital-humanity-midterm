@@ -17,6 +17,15 @@ body {
   margin-top: 125px;
 }
 
+img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
 .imgtext {
   display: flex;
   justify-content: center; /* Horizontally center content */
