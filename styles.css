@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: center; /* Horizontally center content */
   align-items: center; /* Vertically center content */
-  
+  position: relative;
 }
 
 .imgtext img {
@@ -29,18 +29,30 @@ body {
 }
 
 .imgtext img:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
 }
 
 ol {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
   margin: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
 }
 
 ol li {
   margin-top: 10px;
   margin-bottom: 10px;
+  margin: 10px 0;
+  padding: 0 0 0 20px;
+  font-size: 16px;
+}
+
+ol li p {
+  text-align: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 p {
@@ -48,6 +60,16 @@ p {
   margin: 20px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.quoted {
+  border-left: 2px solid #333; /* Add a left border */
+  padding: 10px; /* Add some padding for space between the text and the border */
+  margin: 20px; /* Add margin for spacing around the div */
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #f7f7f7; /* Add a background color */
+  font-style: italic; /* Make the text italic */
 }
 
 footer {
@@ -67,6 +89,7 @@ footer p {
 
 /* Nav Styling */
 .navbar {
+  z-index: 1;
   position: fixed;
   background-color: #fff;
   padding: 10px;
