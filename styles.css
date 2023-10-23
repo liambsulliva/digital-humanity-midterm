@@ -12,11 +12,18 @@ h1, h2, h3 {
   margin: 20px;
 }
 
+a {
+  
+  color: #0077b6;
+  text-decoration: none;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin-top: 125px;
 }
 
+/* General Image Container */
 .imgtext {
   display: flex;
   justify-content: center; /* Horizontally center content */
@@ -70,6 +77,23 @@ p {
   margin-right: 10%;
   background-color: #f7f7f7; /* Add a background color */
   font-style: italic; /* Make the text italic */
+}
+
+.footnotes {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.footnotes p {
+  font-size: x-small;
+  margin: 5px 0;
+}
+
+sup {
+  vertical-align: super;
+  font-size: x-small;
 }
 
 footer {
