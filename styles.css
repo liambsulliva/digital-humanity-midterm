@@ -31,14 +31,6 @@ body {
   position: relative;
 }
 
-.imgtext img {
-  transition: transform 0.3s;
-}
-
-.imgtext img:hover {
-  transform: scale(1.025);
-}
-
 ol {
   justify-content: center;
   display: flex;
